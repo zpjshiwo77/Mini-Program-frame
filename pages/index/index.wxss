@@ -1,0 +1,47 @@
+/**index.wxss**/
+
+
+/**
+    适配
+*/
+/** iphone系列 */
+@media screen and (width:320px), screen and (width:375px), screen and (width:414px) {
+    .user-motto {
+    
+    }
+}
+
+/** iphone plus */
+@media screen and (width:414px) {
+    .user-motto {
+    
+    }
+}
+
+/** iphoneX */
+@media screen and (width:375px) and (min-height:724px) {
+    .user-motto {
+    
+    }
+}
+
+/** 安卓系列 */
+@media screen and (width:360px), screen and (width:393px) {
+    .user-motto {
+    
+    }
+}
+
+/** 安卓 15:9 */
+@media screen and (width:360px) and (max-height:540px) {
+    .user-motto {
+    
+    }
+}
+
+/** 安卓 18:9 */
+@media screen and (width:360px) and (min-height:600px), screen and (width:393px) {
+    .user-motto {
+    
+    }
+}

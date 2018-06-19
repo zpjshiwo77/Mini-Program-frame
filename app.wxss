@@ -1,0 +1,21 @@
+/**app.wxss**/
+@import 'common/css/common.wxss';
+
+page {
+    width: 100%;
+    height: 100%;
+}
+
+.article {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+button{
+  border: none!important;
+  background: none!important;
+  padding: 0!important;
+}

@@ -1,0 +1,15 @@
+<!--index.wxml-->
+
+<!-- 顶级view默认class article -->
+<view class="article" catchtouchmove="true">
+    <!----section begin----->
+    <view class='section'>
+        <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class='btnGetUserInfo'>获取头像昵称</button>
+    </view>
+    <!----section end----->
+</view>
+<!----article end----->
+
+<!-- 引入图片预加载组件,仅首页需要加载 -->
+<import src="/components/img-loader/img-loader.wxml" />
+<template is="img-loader" data="{{ imgLoadList }}"></template>
