@@ -15,7 +15,7 @@ App({
 
     setShareData: function (onShareSuccess, onShareFail) {;
         return {
-            title: 'OPPO趣味答题',
+            title: '测试标题',
             path: '/pages/index/index',
             imageUrl: '/images/share.jpg',
             success: function (res) {
