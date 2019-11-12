@@ -8,6 +8,9 @@
 </view>
 <!----article end----->
 
+
 <!-- 引入图片预加载组件,仅引用外部图片时需要用到 -->
 <import src="/components/img-loader/img-loader.wxml" />
 <template is="img-loader" data="{{ imgLoadList }}"></template>
+
+<bgmBtn play="{{bgmPlay}}"></bgmBtn>

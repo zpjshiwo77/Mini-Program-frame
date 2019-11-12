@@ -1,0 +1,5 @@
+<!--components/bgmBtn/index.wxml-->
+<view class="bgmBtn">
+    <image src="/images/common/bgm_on.png" catchtap="bgmpause" wx:if="{{bgmPlay}}" class="on"></image>
+    <image src="/images/common/bgm_off.png" catchtap="bgmplay" class="off" wx:else></image>
+</view>

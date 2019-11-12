@@ -6,7 +6,8 @@ const ImgLoader = require('../../components/img-loader/img-loader.js');
 
 Page({
     data: {
-        loadingPer: 0
+        loadingPer: 0,
+        bgmPlay:app.globalData.bgmPlay
     },
 
     getUserInfo: function (userRes) {
@@ -19,6 +20,9 @@ Page({
         } else {
             app.globalData.userInfo = userRes.detail.userInfo;
         }
+        wx.redirectTo({
+            url:"/pages/test/test"
+        })
     },
 
     //资源加载
